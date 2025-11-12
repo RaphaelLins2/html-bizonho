@@ -1,26 +1,58 @@
+@font-face {
+    font-family: FontBased;
+    src: url(./CascadiaMono/CaskaydiaMonoNerdFont-Regular.ttf);
+}
+
 h1{
-color: lightgray;
+color: #e8e8e8;
 }
 body{
-    background-color: darkred;
+    font-family: FontBased;
+    background-image: linear-gradient(to left, #5e0606, #d10a0a, #5e0606);
+    background-position-x: 0px;
 }
 p{
-    color: white;
+    color: #e8e8e8;
+    font-size:large;
+    margin: 1%;
+}
+h2{
+    color: #e8e8e8;
+}
+ul{
+    color: #e8e8e8;
 }
 .woker{
     position: fixed;
     bottom: 0;
     left: 0;
 }
-.pfp{
-    background-color: #69aabf;
+.banner{
     object-fit: cover;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border-style: inset;
-    border-color: darkgray;
 }
-.nome{
-    font-size: medium;
+.pfp{
+    /*trimming*/
+    object-fit: cover;
+    margin-left: 0px;
+    margin-right: auto;
+    
+    width: 150px;
+    height: 150px;
+    /*fazendo as bordas*/
+    border-radius: 50%;
+    border: 5px solid;
+    /*definindo as cores */
+    border-color: lightblue;
+    background-color: #69aabf;
+}
+.container{
+    background-color: #1f1f1fFA;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    padding: 3%;
+    
+}
+.hyperlink{
+    color: #e3acaf;
 }
