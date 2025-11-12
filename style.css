@@ -1,0 +1,23 @@
+h1{
+color: lightgray;
+}
+body{
+    background-color: darkred;
+}
+.woker{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.pfp{
+    background-color: #69aabf;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: inset;
+    border-color: darkgray;
+}
+.nome{
+    font-size: medium;
+}
