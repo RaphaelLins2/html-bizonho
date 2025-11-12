@@ -4,6 +4,9 @@ color: lightgray;
 body{
     background-color: darkred;
 }
+p{
+    color: white;
+}
 .woker{
     position: fixed;
     bottom: 0;
