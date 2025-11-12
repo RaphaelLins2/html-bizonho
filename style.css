@@ -1,6 +1,7 @@
 @font-face {
     font-family: FontBased;
     src: url(./CascadiaMono/CaskaydiaMonoNerdFont-Regular.ttf);
+    
 }
 
 h1{
@@ -12,8 +13,8 @@ body{
     background-position-x: 0px;
 }
 p{
+    font-size: large;
     color: #e8e8e8;
-    font-size:large;
     margin: 1%;
 }
 h2{
@@ -42,7 +43,7 @@ ul{
     border-radius: 50%;
     border: 5px solid;
     /*definindo as cores */
-    border-color: lightblue;
+    border-color: darkred;
     background-color: #69aabf;
 }
 .container{
@@ -55,4 +56,7 @@ ul{
 }
 .hyperlink{
     color: #e3acaf;
+}
+.button{
+    margin-left: 90%;
 }
