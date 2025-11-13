@@ -71,3 +71,20 @@ ul{
 .buttondiv{
     margin-left: 90%;
 }
+#btn-print{
+  background-image: linear-gradient(to bottom, #e71602 80%,  #5e0606);
+  color: white;                  
+  border: none;                 
+  padding: 10px 20px;            
+  cursor: pointer;               
+  font-size: 16px;               
+  border-radius: 3px;           
+}
+
+
+@media print{
+  #btn-print{
+    display: none;             
+    visibility: hidden;       
+  }
+}
