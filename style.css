@@ -1,3 +1,15 @@
+:root{
+    --primaryBgColor: #e71602;
+    --primaryBgColorDarker: #b8000b;
+    --primaryBorderColor: #5e0606;
+
+    --primaryBlack: #1f1f1fFA;
+    --primaryBlackAccent: #1f1f1f00;
+
+    --primaryTxtColor: #e8e8e8e8;
+    --primaryTxtColorHighLight: #e3acaf;    
+}
+
 @font-face {
     font-family: FontBased;
     src: url(./CascadiaMono/CaskaydiaMonoNerdFont-Regular.ttf);
@@ -5,33 +17,34 @@
 }
 
 h1{
-color: #e8e8e8;
+color: var(--primaryTxtColor);
 }
 body{
     margin-top: 30px;
     font-family: FontBased;
-    background-image: linear-gradient(to left, #b8000b, #e71602, #b8000b);
+    background-image: linear-gradient(to left, var(--primaryBorderColor), var(--primaryBgColor), var(--primaryBorderColor));
+
     background-position-x: 0px;
 }
 p{
     font-size: large;
-    color: #e8e8e8;
+    color: var(--primaryTxtColor);
     margin: 1%;
 }
 h2{
     border-bottom: 3px solid;
-    color: #e8e8e8;
+    color: var(--primaryTxtColor);
     padding-top: 30px;
     padding-bottom: 3px;
-    border-color:  #5e0606;
+    border-color:  var(--primaryBorderColor);
 }
 ul{
-    color: #e8e8e8;
+    color: var(--primaryTxtColor);
 }
 .icone{
     width: 50px;
     height: 50px;
-    background-color: #fdfdfd;
+    background-color: var(--primaryTxtColor);
     border-radius: 50%;
 }
 .woker{
@@ -54,11 +67,11 @@ ul{
     border-radius: 50%;
     border: 5px solid;
     /*definindo as cores */
-    border-color: darkred;
-    background-color: #69aabf;
+    border-color: var(--primaryBorderColor);
+    background-color: var(--primaryTxtColorHighLight);
 }
 .container{
-    background-image:  linear-gradient(to top, #1f1f1fFA 60%,  #1f1f1f00);
+    background-image:  linear-gradient(to top, var(--primaryBlack) 60%,  var(--primaryBlackAccent));
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 10px;
@@ -66,14 +79,15 @@ ul{
     
 }
 .hyperlink{
-    color: #e3acaf;
+    color: var(--primaryTxtColorHighLight);
 }
 .buttondiv{
-    margin-left: 90%;
+    margin-right: 1%;
+    margin-left: 85%;
 }
 #btn-print{
-  background-image: linear-gradient(to bottom, #e71602 80%,  #5e0606);
-  color: white;                  
+  background-image: linear-gradient(to bottom, var(--primaryBgColor) 80%, var(--primaryBgColorDarker) );
+  color: var(--primaryTxtColor);                  
   border: none;                 
   padding: 10px 20px;            
   cursor: pointer;               
