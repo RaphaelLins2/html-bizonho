@@ -92,9 +92,23 @@ ul{
   padding: 10px 20px;            
   cursor: pointer;               
   font-size: 16px;               
+  border-radius: 3px;
+}
+#btn-print:hover{
+    background-image: linear-gradient(to bottom, var(--primaryBgColor) 5%, var(--primaryBgColorDarker) );
+}
+#btn-lang{
+  background-image: linear-gradient(to bottom, var(--primaryBgColor) 80%, var(--primaryBgColorDarker) );
+  color: var(--primaryTxtColor);                  
+  border: none;                 
+  padding: 10px 20px;            
+  cursor: pointer;               
+  font-size: 16px;               
   border-radius: 3px;           
 }
-
+#btn-lang:hover{
+    background-image: linear-gradient(to bottom, var(--primaryBgColor) 5%, var(--primaryBgColorDarker) );
+}
 
 @media print{
   #btn-print{
