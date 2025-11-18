@@ -14,7 +14,7 @@ document.getElementById("btn-print").addEventListener(
 let langs = [
     "Olá meu nome é Raphael Lins, faço o ensino médio no senac Mediotec junto ao técnico de informática com previsão ainda no ano de 2025. Gosto muito de mecher com tecnologia em geral, seja programar ou mexer em hardware.",
     "Hello my name is Raphael Lins, currently doing high school together with a technical course in IT at Senac Mediotec, that will end by 2025. I like to mess with tecnology in general, wether it's coding or messing with hardware.",
-    "おはよう私の名前はラフアエル・リンスです、今まで高等学校はセナックでします、それにテクニカルコースもまた。私はテクノロジーを好きです。"]
+    "おはよう私の名前はラフアエル・リンスです、今までセナックでは高等学校そしてテクニックルコースをします。私はテクノロジーを使う好きです。"]
 let lang = 0
 let perfilTxt = document.getElementById("perfilTxt")
 //funcionalidade de mudar a lingua do perfil
